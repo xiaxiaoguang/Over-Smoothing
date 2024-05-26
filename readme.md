@@ -18,3 +18,9 @@ python  train.py -c your_config_file.py --gpus your_gpu_numbers
 Whole training architecture is written in [easy-torch](https://github.com/cnstark/easytorch)
 
 Training results is in 'experiments' folders.
+
+## result pics
+
+![all_models](pics/results18.png)
+
+![all_models](pics/results17.png)
