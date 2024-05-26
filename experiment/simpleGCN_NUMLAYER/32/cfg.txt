@@ -1,0 +1,63 @@
+DESCRIPTION: HW7 OverSmooth configuration
+GPU_NUM: 1
+RUNNER: <class 'HWrunner.runner.HomeworkRunner'>
+MODEL:
+  NAME: simpleGNN
+  ARCH: <class 'model.simpleGNN.simpleGNN'>
+  PARAM:
+    numlayer: 32
+    inchannel: 745
+    midchannel: 512
+    outchannel: 8
+    isBias: True
+    isNormalize: True
+    isResidual: False
+TRAIN:
+  DATASET:
+    ARCH: <class 'dataset.Graphdata.GraphDataset'>
+    PARAM:
+      root: data
+      name: photo
+      type: Amazon
+      isTrain: True
+      maskRate: 0.2
+  LOSS: CrossEntropyLoss()
+  OPTIM:
+    TYPE: Adam
+    PARAM:
+      lr: 0.001
+      weight_decay: 1e-05
+      eps: 1e-08
+  LR_SCHEDULER:
+    TYPE: CosineAnnealingLR
+    PARAM:
+      T_max: 200
+      eta_min: 1e-06
+  CLIP_GRAD_PARAM:
+    max_norm: 5.0
+  NUM_EPOCHS: 200
+  CKPT_SAVE_DIR: experiment
+  DATA:
+    BATCH_SIZE: 1
+    PREFETCH: False
+    SHUFFLE: True
+    NUM_WORKERS: 2
+    PIN_MEMORY: True
+  NULL_VAL: 0.0
+VAL:
+  DATASET:
+    ARCH: <class 'dataset.Graphdata.GraphDataset'>
+    PARAM:
+      root: data
+      name: photo
+      type: Amazon
+      isTrain: False
+      maskRate: 0.2
+  INTERVAL: 1
+  DATA:
+    BATCH_SIZE: 1
+    PREFETCH: False
+    SHUFFLE: False
+    NUM_WORKERS: 2
+    PIN_MEMORY: True
+MD5: 8eb3081aa9491f3bca553947cd82d5d7

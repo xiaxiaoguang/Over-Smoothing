@@ -1,0 +1,1219 @@
+2024-05-26 09:35:44,112 - easytorch-training - INFO - Initializing training.
+2024-05-26 09:35:44,113 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2024-05-26 09:35:44,113 - easytorch-training - INFO - Building training data loader.
+2024-05-26 09:35:44,125 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 1e-05
+)
+2024-05-26 09:35:44,126 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.CosineAnnealingLR object at 0x7f6dbabfa940>
+2024-05-26 09:35:44,127 - easytorch-training - INFO - Initializing validation.
+2024-05-26 09:35:44,127 - easytorch-training - INFO - Building val data loader.
+2024-05-26 09:35:44,138 - easytorch-training - INFO - Epoch 1 / 200
+2024-05-26 09:35:45,265 - easytorch-training - INFO - Result <train>: [train_Loss: 3.0626, train_time: 1.13 (s), lr: 1.00e-03]
+2024-05-26 09:35:45,266 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:45,595 - easytorch-training - INFO - Result <val>: [val_Loss: 21.7488, val_Accuracy: 0.2614, val_Dirichlet: 21259.72070, val_time: 0.33 (s)]
+2024-05-26 09:35:45,739 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_001.pt saved
+2024-05-26 09:35:45,739 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:41:04
+2024-05-26 09:35:45,739 - easytorch-training - INFO - Epoch 2 / 200
+2024-05-26 09:35:46,052 - easytorch-training - INFO - Result <train>: [train_Loss: 21.8322, train_time: 0.31 (s), lr: 1.00e-03]
+2024-05-26 09:35:46,053 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:46,393 - easytorch-training - INFO - Result <val>: [val_Loss: 11.7741, val_Accuracy: 0.2190, val_Dirichlet: 6943.07959, val_time: 0.34 (s)]
+2024-05-26 09:35:46,535 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_002.pt saved
+2024-05-26 09:35:46,536 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:39:43
+2024-05-26 09:35:46,536 - easytorch-training - INFO - Epoch 3 / 200
+2024-05-26 09:35:46,848 - easytorch-training - INFO - Result <train>: [train_Loss: 11.6371, train_time: 0.31 (s), lr: 1.00e-03]
+2024-05-26 09:35:46,849 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:47,177 - easytorch-training - INFO - Result <val>: [val_Loss: 2.4718, val_Accuracy: 0.1229, val_Dirichlet: 1050.56213, val_time: 0.33 (s)]
+2024-05-26 09:35:47,324 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_003.pt saved
+2024-05-26 09:35:47,324 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:39:16
+2024-05-26 09:35:47,324 - easytorch-training - INFO - Epoch 4 / 200
+2024-05-26 09:35:47,639 - easytorch-training - INFO - Result <train>: [train_Loss: 2.4673, train_time: 0.31 (s), lr: 9.99e-04]
+2024-05-26 09:35:47,640 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:47,968 - easytorch-training - INFO - Result <val>: [val_Loss: 2.0458, val_Accuracy: 0.1046, val_Dirichlet: 273.19266, val_time: 0.33 (s)]
+2024-05-26 09:35:48,108 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_004.pt saved
+2024-05-26 09:35:48,109 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:39:02
+2024-05-26 09:35:48,109 - easytorch-training - INFO - Epoch 5 / 200
+2024-05-26 09:35:48,427 - easytorch-training - INFO - Result <train>: [train_Loss: 2.0400, train_time: 0.32 (s), lr: 9.99e-04]
+2024-05-26 09:35:48,428 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:48,753 - easytorch-training - INFO - Result <val>: [val_Loss: 1.9739, val_Accuracy: 0.1046, val_Dirichlet: 351.66257, val_time: 0.33 (s)]
+2024-05-26 09:35:48,894 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_005.pt saved
+2024-05-26 09:35:48,895 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:54
+2024-05-26 09:35:48,895 - easytorch-training - INFO - Epoch 6 / 200
+2024-05-26 09:35:49,210 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9662, train_time: 0.32 (s), lr: 9.98e-04]
+2024-05-26 09:35:49,211 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:49,541 - easytorch-training - INFO - Result <val>: [val_Loss: 2.0061, val_Accuracy: 0.2235, val_Dirichlet: 846.71045, val_time: 0.33 (s)]
+2024-05-26 09:35:49,683 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_006.pt saved
+2024-05-26 09:35:49,683 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:48
+2024-05-26 09:35:49,683 - easytorch-training - INFO - Epoch 7 / 200
+2024-05-26 09:35:50,002 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9983, train_time: 0.32 (s), lr: 9.98e-04]
+2024-05-26 09:35:50,003 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:50,325 - easytorch-training - INFO - Result <val>: [val_Loss: 1.9392, val_Accuracy: 0.3876, val_Dirichlet: 288.18967, val_time: 0.32 (s)]
+2024-05-26 09:35:50,467 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_007.pt saved
+2024-05-26 09:35:50,467 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:44
+2024-05-26 09:35:50,467 - easytorch-training - INFO - Epoch 8 / 200
+2024-05-26 09:35:50,786 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9418, train_time: 0.32 (s), lr: 9.97e-04]
+2024-05-26 09:35:50,787 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:51,113 - easytorch-training - INFO - Result <val>: [val_Loss: 1.9490, val_Accuracy: 0.4163, val_Dirichlet: 227.86095, val_time: 0.33 (s)]
+2024-05-26 09:35:51,252 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_008.pt saved
+2024-05-26 09:35:51,253 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:42
+2024-05-26 09:35:51,253 - easytorch-training - INFO - Epoch 9 / 200
+2024-05-26 09:35:51,562 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9532, train_time: 0.31 (s), lr: 9.96e-04]
+2024-05-26 09:35:51,563 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:51,896 - easytorch-training - INFO - Result <val>: [val_Loss: 1.9013, val_Accuracy: 0.4085, val_Dirichlet: 327.01669, val_time: 0.33 (s)]
+2024-05-26 09:35:52,039 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_009.pt saved
+2024-05-26 09:35:52,039 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:39
+2024-05-26 09:35:52,039 - easytorch-training - INFO - Epoch 10 / 200
+2024-05-26 09:35:52,357 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9087, train_time: 0.32 (s), lr: 9.95e-04]
+2024-05-26 09:35:52,358 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:52,690 - easytorch-training - INFO - Result <val>: [val_Loss: 1.8743, val_Accuracy: 0.3013, val_Dirichlet: 640.90399, val_time: 0.33 (s)]
+2024-05-26 09:35:52,836 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_010.pt saved
+2024-05-26 09:35:52,987 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:41
+2024-05-26 09:35:52,987 - easytorch-training - INFO - Epoch 11 / 200
+2024-05-26 09:35:53,298 - easytorch-training - INFO - Result <train>: [train_Loss: 1.8891, train_time: 0.31 (s), lr: 9.94e-04]
+2024-05-26 09:35:53,299 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:53,628 - easytorch-training - INFO - Result <val>: [val_Loss: 1.8399, val_Accuracy: 0.3752, val_Dirichlet: 578.04694, val_time: 0.33 (s)]
+2024-05-26 09:35:53,769 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_011.pt saved
+2024-05-26 09:35:53,769 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:39
+2024-05-26 09:35:53,769 - easytorch-training - INFO - Epoch 12 / 200
+2024-05-26 09:35:54,082 - easytorch-training - INFO - Result <train>: [train_Loss: 1.8547, train_time: 0.31 (s), lr: 9.93e-04]
+2024-05-26 09:35:54,083 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:54,416 - easytorch-training - INFO - Result <val>: [val_Loss: 1.9694, val_Accuracy: 0.2281, val_Dirichlet: 579.38678, val_time: 0.33 (s)]
+2024-05-26 09:35:54,558 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_012.pt saved
+2024-05-26 09:35:54,558 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:37
+2024-05-26 09:35:54,558 - easytorch-training - INFO - Epoch 13 / 200
+2024-05-26 09:35:54,864 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9671, train_time: 0.31 (s), lr: 9.91e-04]
+2024-05-26 09:35:54,865 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:55,195 - easytorch-training - INFO - Result <val>: [val_Loss: 1.8880, val_Accuracy: 0.2523, val_Dirichlet: 241.96664, val_time: 0.33 (s)]
+2024-05-26 09:35:55,336 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_013.pt saved
+2024-05-26 09:35:55,337 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:36
+2024-05-26 09:35:55,337 - easytorch-training - INFO - Epoch 14 / 200
+2024-05-26 09:35:55,653 - easytorch-training - INFO - Result <train>: [train_Loss: 1.8874, train_time: 0.32 (s), lr: 9.90e-04]
+2024-05-26 09:35:55,654 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:55,979 - easytorch-training - INFO - Result <val>: [val_Loss: 1.9129, val_Accuracy: 0.4163, val_Dirichlet: 163.14442, val_time: 0.32 (s)]
+2024-05-26 09:35:56,123 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_014.pt saved
+2024-05-26 09:35:56,123 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:35
+2024-05-26 09:35:56,123 - easytorch-training - INFO - Epoch 15 / 200
+2024-05-26 09:35:56,437 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9148, train_time: 0.31 (s), lr: 9.88e-04]
+2024-05-26 09:35:56,437 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:56,768 - easytorch-training - INFO - Result <val>: [val_Loss: 1.8817, val_Accuracy: 0.4065, val_Dirichlet: 203.55247, val_time: 0.33 (s)]
+2024-05-26 09:35:56,907 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_015.pt saved
+2024-05-26 09:35:56,907 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:34
+2024-05-26 09:35:56,907 - easytorch-training - INFO - Epoch 16 / 200
+2024-05-26 09:35:57,222 - easytorch-training - INFO - Result <train>: [train_Loss: 1.8856, train_time: 0.31 (s), lr: 9.86e-04]
+2024-05-26 09:35:57,223 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:57,548 - easytorch-training - INFO - Result <val>: [val_Loss: 1.7826, val_Accuracy: 0.4307, val_Dirichlet: 325.76093, val_time: 0.33 (s)]
+2024-05-26 09:35:57,690 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_016.pt saved
+2024-05-26 09:35:57,690 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:33
+2024-05-26 09:35:57,690 - easytorch-training - INFO - Epoch 17 / 200
+2024-05-26 09:35:58,005 - easytorch-training - INFO - Result <train>: [train_Loss: 1.7889, train_time: 0.31 (s), lr: 9.84e-04]
+2024-05-26 09:35:58,005 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:58,334 - easytorch-training - INFO - Result <val>: [val_Loss: 1.6695, val_Accuracy: 0.4288, val_Dirichlet: 571.15729, val_time: 0.33 (s)]
+2024-05-26 09:35:58,476 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_017.pt saved
+2024-05-26 09:35:58,477 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:32
+2024-05-26 09:35:58,477 - easytorch-training - INFO - Epoch 18 / 200
+2024-05-26 09:35:58,790 - easytorch-training - INFO - Result <train>: [train_Loss: 1.6778, train_time: 0.31 (s), lr: 9.82e-04]
+2024-05-26 09:35:58,791 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:59,116 - easytorch-training - INFO - Result <val>: [val_Loss: 1.6934, val_Accuracy: 0.4301, val_Dirichlet: 915.99390, val_time: 0.32 (s)]
+2024-05-26 09:35:59,259 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_018.pt saved
+2024-05-26 09:35:59,259 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:32
+2024-05-26 09:35:59,259 - easytorch-training - INFO - Epoch 19 / 200
+2024-05-26 09:35:59,573 - easytorch-training - INFO - Result <train>: [train_Loss: 1.7096, train_time: 0.31 (s), lr: 9.80e-04]
+2024-05-26 09:35:59,574 - easytorch-training - INFO - Start validation.
+2024-05-26 09:35:59,901 - easytorch-training - INFO - Result <val>: [val_Loss: 2.7238, val_Accuracy: 0.2399, val_Dirichlet: 1100.65320, val_time: 0.33 (s)]
+2024-05-26 09:36:00,047 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_019.pt saved
+2024-05-26 09:36:00,047 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:31
+2024-05-26 09:36:00,047 - easytorch-training - INFO - Epoch 20 / 200
+2024-05-26 09:36:00,353 - easytorch-training - INFO - Result <train>: [train_Loss: 2.7007, train_time: 0.31 (s), lr: 9.78e-04]
+2024-05-26 09:36:00,354 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:00,678 - easytorch-training - INFO - Result <val>: [val_Loss: 2.1405, val_Accuracy: 0.2418, val_Dirichlet: 708.78192, val_time: 0.32 (s)]
+2024-05-26 09:36:00,819 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_020.pt saved
+2024-05-26 09:36:00,979 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:32
+2024-05-26 09:36:00,979 - easytorch-training - INFO - Epoch 21 / 200
+2024-05-26 09:36:01,293 - easytorch-training - INFO - Result <train>: [train_Loss: 2.1210, train_time: 0.31 (s), lr: 9.76e-04]
+2024-05-26 09:36:01,294 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:01,616 - easytorch-training - INFO - Result <val>: [val_Loss: 1.7092, val_Accuracy: 0.4359, val_Dirichlet: 256.53799, val_time: 0.32 (s)]
+2024-05-26 09:36:01,757 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_021.pt saved
+2024-05-26 09:36:01,757 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:31
+2024-05-26 09:36:01,757 - easytorch-training - INFO - Epoch 22 / 200
+2024-05-26 09:36:02,068 - easytorch-training - INFO - Result <train>: [train_Loss: 1.7058, train_time: 0.31 (s), lr: 9.73e-04]
+2024-05-26 09:36:02,068 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:02,401 - easytorch-training - INFO - Result <val>: [val_Loss: 1.8179, val_Accuracy: 0.4072, val_Dirichlet: 385.89359, val_time: 0.33 (s)]
+2024-05-26 09:36:02,545 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_022.pt saved
+2024-05-26 09:36:02,546 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:31
+2024-05-26 09:36:02,546 - easytorch-training - INFO - Epoch 23 / 200
+2024-05-26 09:36:02,859 - easytorch-training - INFO - Result <train>: [train_Loss: 1.8313, train_time: 0.31 (s), lr: 9.70e-04]
+2024-05-26 09:36:02,860 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:03,187 - easytorch-training - INFO - Result <val>: [val_Loss: 1.8309, val_Accuracy: 0.3863, val_Dirichlet: 449.90738, val_time: 0.33 (s)]
+2024-05-26 09:36:03,330 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_023.pt saved
+2024-05-26 09:36:03,331 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:31
+2024-05-26 09:36:03,331 - easytorch-training - INFO - Epoch 24 / 200
+2024-05-26 09:36:03,632 - easytorch-training - INFO - Result <train>: [train_Loss: 1.8474, train_time: 0.30 (s), lr: 9.68e-04]
+2024-05-26 09:36:03,633 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:03,959 - easytorch-training - INFO - Result <val>: [val_Loss: 1.7511, val_Accuracy: 0.4386, val_Dirichlet: 333.53207, val_time: 0.33 (s)]
+2024-05-26 09:36:04,103 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_024.pt saved
+2024-05-26 09:36:04,104 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:30
+2024-05-26 09:36:04,104 - easytorch-training - INFO - Epoch 25 / 200
+2024-05-26 09:36:04,411 - easytorch-training - INFO - Result <train>: [train_Loss: 1.7616, train_time: 0.31 (s), lr: 9.65e-04]
+2024-05-26 09:36:04,412 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:04,739 - easytorch-training - INFO - Result <val>: [val_Loss: 1.6886, val_Accuracy: 0.4294, val_Dirichlet: 295.14908, val_time: 0.33 (s)]
+2024-05-26 09:36:04,878 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_025.pt saved
+2024-05-26 09:36:04,879 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:30
+2024-05-26 09:36:04,879 - easytorch-training - INFO - Epoch 26 / 200
+2024-05-26 09:36:05,193 - easytorch-training - INFO - Result <train>: [train_Loss: 1.6939, train_time: 0.31 (s), lr: 9.62e-04]
+2024-05-26 09:36:05,195 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:05,525 - easytorch-training - INFO - Result <val>: [val_Loss: 1.5844, val_Accuracy: 0.4418, val_Dirichlet: 355.92575, val_time: 0.33 (s)]
+2024-05-26 09:36:05,666 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_026.pt saved
+2024-05-26 09:36:05,666 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:29
+2024-05-26 09:36:05,666 - easytorch-training - INFO - Epoch 27 / 200
+2024-05-26 09:36:05,978 - easytorch-training - INFO - Result <train>: [train_Loss: 1.5861, train_time: 0.31 (s), lr: 9.59e-04]
+2024-05-26 09:36:05,978 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:06,311 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4591, val_Accuracy: 0.4405, val_Dirichlet: 716.73096, val_time: 0.33 (s)]
+2024-05-26 09:36:06,453 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_027.pt saved
+2024-05-26 09:36:06,454 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:29
+2024-05-26 09:36:06,454 - easytorch-training - INFO - Epoch 28 / 200
+2024-05-26 09:36:06,767 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4686, train_time: 0.31 (s), lr: 9.56e-04]
+2024-05-26 09:36:06,768 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:07,092 - easytorch-training - INFO - Result <val>: [val_Loss: 1.5299, val_Accuracy: 0.4405, val_Dirichlet: 922.76917, val_time: 0.32 (s)]
+2024-05-26 09:36:07,235 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_028.pt saved
+2024-05-26 09:36:07,235 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:29
+2024-05-26 09:36:07,235 - easytorch-training - INFO - Epoch 29 / 200
+2024-05-26 09:36:07,537 - easytorch-training - INFO - Result <train>: [train_Loss: 1.5386, train_time: 0.30 (s), lr: 9.52e-04]
+2024-05-26 09:36:07,538 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:07,873 - easytorch-training - INFO - Result <val>: [val_Loss: 1.8718, val_Accuracy: 0.4333, val_Dirichlet: 1749.95581, val_time: 0.33 (s)]
+2024-05-26 09:36:08,013 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_029.pt saved
+2024-05-26 09:36:08,013 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:28
+2024-05-26 09:36:08,013 - easytorch-training - INFO - Epoch 30 / 200
+2024-05-26 09:36:08,330 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9060, train_time: 0.32 (s), lr: 9.49e-04]
+2024-05-26 09:36:08,331 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:08,658 - easytorch-training - INFO - Result <val>: [val_Loss: 1.5771, val_Accuracy: 0.4412, val_Dirichlet: 1238.29285, val_time: 0.33 (s)]
+2024-05-26 09:36:08,800 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_030.pt saved
+2024-05-26 09:36:08,963 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:29
+2024-05-26 09:36:08,963 - easytorch-training - INFO - Epoch 31 / 200
+2024-05-26 09:36:09,279 - easytorch-training - INFO - Result <train>: [train_Loss: 1.5845, train_time: 0.32 (s), lr: 9.46e-04]
+2024-05-26 09:36:09,280 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:09,609 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4338, val_Accuracy: 0.4418, val_Dirichlet: 1144.74121, val_time: 0.33 (s)]
+2024-05-26 09:36:09,754 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_031.pt saved
+2024-05-26 09:36:09,754 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:29
+2024-05-26 09:36:09,754 - easytorch-training - INFO - Epoch 32 / 200
+2024-05-26 09:36:10,075 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4403, train_time: 0.32 (s), lr: 9.42e-04]
+2024-05-26 09:36:10,075 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:10,397 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4695, val_Accuracy: 0.4497, val_Dirichlet: 659.92737, val_time: 0.32 (s)]
+2024-05-26 09:36:10,537 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_032.pt saved
+2024-05-26 09:36:10,538 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:29
+2024-05-26 09:36:10,538 - easytorch-training - INFO - Epoch 33 / 200
+2024-05-26 09:36:10,845 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4566, train_time: 0.31 (s), lr: 9.38e-04]
+2024-05-26 09:36:10,846 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:11,182 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4542, val_Accuracy: 0.4614, val_Dirichlet: 670.84454, val_time: 0.34 (s)]
+2024-05-26 09:36:11,323 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_033.pt saved
+2024-05-26 09:36:11,324 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:28
+2024-05-26 09:36:11,324 - easytorch-training - INFO - Epoch 34 / 200
+2024-05-26 09:36:11,626 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4557, train_time: 0.30 (s), lr: 9.34e-04]
+2024-05-26 09:36:11,626 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:11,956 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4604, val_Accuracy: 0.4706, val_Dirichlet: 569.95007, val_time: 0.33 (s)]
+2024-05-26 09:36:12,099 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_034.pt saved
+2024-05-26 09:36:12,099 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:28
+2024-05-26 09:36:12,099 - easytorch-training - INFO - Epoch 35 / 200
+2024-05-26 09:36:12,404 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4619, train_time: 0.30 (s), lr: 9.30e-04]
+2024-05-26 09:36:12,405 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:12,731 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4065, val_Accuracy: 0.4647, val_Dirichlet: 647.13544, val_time: 0.33 (s)]
+2024-05-26 09:36:12,874 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_035.pt saved
+2024-05-26 09:36:12,874 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:28
+2024-05-26 09:36:12,874 - easytorch-training - INFO - Epoch 36 / 200
+2024-05-26 09:36:13,185 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4089, train_time: 0.31 (s), lr: 9.26e-04]
+2024-05-26 09:36:13,185 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:13,511 - easytorch-training - INFO - Result <val>: [val_Loss: 1.3390, val_Accuracy: 0.4608, val_Dirichlet: 834.64398, val_time: 0.33 (s)]
+2024-05-26 09:36:13,653 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_036.pt saved
+2024-05-26 09:36:13,654 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:28
+2024-05-26 09:36:13,654 - easytorch-training - INFO - Epoch 37 / 200
+2024-05-26 09:36:13,963 - easytorch-training - INFO - Result <train>: [train_Loss: 1.3412, train_time: 0.31 (s), lr: 9.22e-04]
+2024-05-26 09:36:13,964 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:14,297 - easytorch-training - INFO - Result <val>: [val_Loss: 1.3239, val_Accuracy: 0.4451, val_Dirichlet: 913.54535, val_time: 0.33 (s)]
+2024-05-26 09:36:14,441 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_037.pt saved
+2024-05-26 09:36:14,441 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:14,441 - easytorch-training - INFO - Epoch 38 / 200
+2024-05-26 09:36:14,744 - easytorch-training - INFO - Result <train>: [train_Loss: 1.3174, train_time: 0.30 (s), lr: 9.18e-04]
+2024-05-26 09:36:14,746 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:15,076 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4098, val_Accuracy: 0.4824, val_Dirichlet: 1641.58960, val_time: 0.33 (s)]
+2024-05-26 09:36:15,219 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_038.pt saved
+2024-05-26 09:36:15,220 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:15,220 - easytorch-training - INFO - Epoch 39 / 200
+2024-05-26 09:36:15,537 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4071, train_time: 0.32 (s), lr: 9.14e-04]
+2024-05-26 09:36:15,538 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:15,860 - easytorch-training - INFO - Result <val>: [val_Loss: 1.3358, val_Accuracy: 0.4516, val_Dirichlet: 1490.36987, val_time: 0.32 (s)]
+2024-05-26 09:36:16,002 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_039.pt saved
+2024-05-26 09:36:16,003 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:16,003 - easytorch-training - INFO - Epoch 40 / 200
+2024-05-26 09:36:16,315 - easytorch-training - INFO - Result <train>: [train_Loss: 1.3239, train_time: 0.31 (s), lr: 9.09e-04]
+2024-05-26 09:36:16,316 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:16,644 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4875, val_Accuracy: 0.4392, val_Dirichlet: 1082.67224, val_time: 0.33 (s)]
+2024-05-26 09:36:16,784 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_040.pt saved
+2024-05-26 09:36:16,940 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:28
+2024-05-26 09:36:16,940 - easytorch-training - INFO - Epoch 41 / 200
+2024-05-26 09:36:17,242 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4444, train_time: 0.30 (s), lr: 9.05e-04]
+2024-05-26 09:36:17,243 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:17,575 - easytorch-training - INFO - Result <val>: [val_Loss: 1.2466, val_Accuracy: 0.5216, val_Dirichlet: 1248.93250, val_time: 0.33 (s)]
+2024-05-26 09:36:17,721 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_041.pt saved
+2024-05-26 09:36:17,722 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:17,722 - easytorch-training - INFO - Epoch 42 / 200
+2024-05-26 09:36:18,025 - easytorch-training - INFO - Result <train>: [train_Loss: 1.2160, train_time: 0.30 (s), lr: 9.00e-04]
+2024-05-26 09:36:18,026 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:18,361 - easytorch-training - INFO - Result <val>: [val_Loss: 1.9210, val_Accuracy: 0.4516, val_Dirichlet: 2368.59863, val_time: 0.33 (s)]
+2024-05-26 09:36:18,504 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_042.pt saved
+2024-05-26 09:36:18,505 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:18,505 - easytorch-training - INFO - Epoch 43 / 200
+2024-05-26 09:36:18,802 - easytorch-training - INFO - Result <train>: [train_Loss: 1.9089, train_time: 0.30 (s), lr: 8.95e-04]
+2024-05-26 09:36:18,803 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:19,136 - easytorch-training - INFO - Result <val>: [val_Loss: 1.7172, val_Accuracy: 0.4275, val_Dirichlet: 2193.12256, val_time: 0.33 (s)]
+2024-05-26 09:36:19,277 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_043.pt saved
+2024-05-26 09:36:19,277 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:19,277 - easytorch-training - INFO - Epoch 44 / 200
+2024-05-26 09:36:19,581 - easytorch-training - INFO - Result <train>: [train_Loss: 1.7105, train_time: 0.30 (s), lr: 8.90e-04]
+2024-05-26 09:36:19,582 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:19,915 - easytorch-training - INFO - Result <val>: [val_Loss: 1.3736, val_Accuracy: 0.4033, val_Dirichlet: 1050.14819, val_time: 0.33 (s)]
+2024-05-26 09:36:20,058 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_044.pt saved
+2024-05-26 09:36:20,058 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:20,058 - easytorch-training - INFO - Epoch 45 / 200
+2024-05-26 09:36:20,375 - easytorch-training - INFO - Result <train>: [train_Loss: 1.3626, train_time: 0.32 (s), lr: 8.85e-04]
+2024-05-26 09:36:20,376 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:20,694 - easytorch-training - INFO - Result <val>: [val_Loss: 1.3643, val_Accuracy: 0.5732, val_Dirichlet: 786.68677, val_time: 0.32 (s)]
+2024-05-26 09:36:20,836 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_045.pt saved
+2024-05-26 09:36:20,837 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:20,837 - easytorch-training - INFO - Epoch 46 / 200
+2024-05-26 09:36:21,166 - easytorch-training - INFO - Result <train>: [train_Loss: 1.3456, train_time: 0.33 (s), lr: 8.80e-04]
+2024-05-26 09:36:21,166 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:21,494 - easytorch-training - INFO - Result <val>: [val_Loss: 1.1920, val_Accuracy: 0.5549, val_Dirichlet: 1156.29150, val_time: 0.33 (s)]
+2024-05-26 09:36:21,636 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_046.pt saved
+2024-05-26 09:36:21,636 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:21,636 - easytorch-training - INFO - Epoch 47 / 200
+2024-05-26 09:36:21,940 - easytorch-training - INFO - Result <train>: [train_Loss: 1.1758, train_time: 0.30 (s), lr: 8.75e-04]
+2024-05-26 09:36:21,940 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:22,271 - easytorch-training - INFO - Result <val>: [val_Loss: 1.2673, val_Accuracy: 0.5137, val_Dirichlet: 1780.92114, val_time: 0.33 (s)]
+2024-05-26 09:36:22,415 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_047.pt saved
+2024-05-26 09:36:22,416 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:22,416 - easytorch-training - INFO - Epoch 48 / 200
+2024-05-26 09:36:22,723 - easytorch-training - INFO - Result <train>: [train_Loss: 1.2481, train_time: 0.31 (s), lr: 8.70e-04]
+2024-05-26 09:36:22,723 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:23,047 - easytorch-training - INFO - Result <val>: [val_Loss: 1.2250, val_Accuracy: 0.5046, val_Dirichlet: 1663.58533, val_time: 0.32 (s)]
+2024-05-26 09:36:23,189 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_048.pt saved
+2024-05-26 09:36:23,189 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:23,189 - easytorch-training - INFO - Epoch 49 / 200
+2024-05-26 09:36:23,496 - easytorch-training - INFO - Result <train>: [train_Loss: 1.2047, train_time: 0.31 (s), lr: 8.64e-04]
+2024-05-26 09:36:23,497 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:23,833 - easytorch-training - INFO - Result <val>: [val_Loss: 1.5773, val_Accuracy: 0.4634, val_Dirichlet: 1082.48950, val_time: 0.34 (s)]
+2024-05-26 09:36:23,975 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_049.pt saved
+2024-05-26 09:36:23,975 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:23,975 - easytorch-training - INFO - Epoch 50 / 200
+2024-05-26 09:36:24,280 - easytorch-training - INFO - Result <train>: [train_Loss: 1.5293, train_time: 0.30 (s), lr: 8.59e-04]
+2024-05-26 09:36:24,281 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:24,604 - easytorch-training - INFO - Result <val>: [val_Loss: 1.6510, val_Accuracy: 0.4510, val_Dirichlet: 991.25439, val_time: 0.32 (s)]
+2024-05-26 09:36:24,754 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_050.pt saved
+2024-05-26 09:36:24,916 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:24,916 - easytorch-training - INFO - Epoch 51 / 200
+2024-05-26 09:36:25,230 - easytorch-training - INFO - Result <train>: [train_Loss: 1.6031, train_time: 0.31 (s), lr: 8.54e-04]
+2024-05-26 09:36:25,231 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:25,560 - easytorch-training - INFO - Result <val>: [val_Loss: 1.2431, val_Accuracy: 0.5137, val_Dirichlet: 1194.81128, val_time: 0.33 (s)]
+2024-05-26 09:36:25,707 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_051.pt saved
+2024-05-26 09:36:25,707 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:25,707 - easytorch-training - INFO - Epoch 52 / 200
+2024-05-26 09:36:26,020 - easytorch-training - INFO - Result <train>: [train_Loss: 1.2158, train_time: 0.31 (s), lr: 8.48e-04]
+2024-05-26 09:36:26,021 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:26,350 - easytorch-training - INFO - Result <val>: [val_Loss: 1.3655, val_Accuracy: 0.5340, val_Dirichlet: 1982.30957, val_time: 0.33 (s)]
+2024-05-26 09:36:26,491 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_052.pt saved
+2024-05-26 09:36:26,491 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:27
+2024-05-26 09:36:26,491 - easytorch-training - INFO - Epoch 53 / 200
+2024-05-26 09:36:26,797 - easytorch-training - INFO - Result <train>: [train_Loss: 1.3552, train_time: 0.31 (s), lr: 8.42e-04]
+2024-05-26 09:36:26,798 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:27,132 - easytorch-training - INFO - Result <val>: [val_Loss: 1.4702, val_Accuracy: 0.5209, val_Dirichlet: 2033.72583, val_time: 0.33 (s)]
+2024-05-26 09:36:27,276 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_053.pt saved
+2024-05-26 09:36:27,276 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:27,276 - easytorch-training - INFO - Epoch 54 / 200
+2024-05-26 09:36:27,581 - easytorch-training - INFO - Result <train>: [train_Loss: 1.4650, train_time: 0.31 (s), lr: 8.37e-04]
+2024-05-26 09:36:27,582 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:27,918 - easytorch-training - INFO - Result <val>: [val_Loss: 1.2346, val_Accuracy: 0.6366, val_Dirichlet: 1353.50012, val_time: 0.34 (s)]
+2024-05-26 09:36:28,062 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_054.pt saved
+2024-05-26 09:36:28,063 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:28,063 - easytorch-training - INFO - Epoch 55 / 200
+2024-05-26 09:36:28,369 - easytorch-training - INFO - Result <train>: [train_Loss: 1.2319, train_time: 0.31 (s), lr: 8.31e-04]
+2024-05-26 09:36:28,370 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:28,699 - easytorch-training - INFO - Result <val>: [val_Loss: 1.3760, val_Accuracy: 0.5333, val_Dirichlet: 591.36182, val_time: 0.33 (s)]
+2024-05-26 09:36:28,843 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_055.pt saved
+2024-05-26 09:36:28,843 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:28,843 - easytorch-training - INFO - Epoch 56 / 200
+2024-05-26 09:36:29,140 - easytorch-training - INFO - Result <train>: [train_Loss: 1.3637, train_time: 0.30 (s), lr: 8.25e-04]
+2024-05-26 09:36:29,141 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:29,472 - easytorch-training - INFO - Result <val>: [val_Loss: 1.3946, val_Accuracy: 0.4588, val_Dirichlet: 607.11816, val_time: 0.33 (s)]
+2024-05-26 09:36:29,614 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_056.pt saved
+2024-05-26 09:36:29,614 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:29,614 - easytorch-training - INFO - Epoch 57 / 200
+2024-05-26 09:36:29,922 - easytorch-training - INFO - Result <train>: [train_Loss: 1.3786, train_time: 0.31 (s), lr: 8.19e-04]
+2024-05-26 09:36:29,923 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:30,261 - easytorch-training - INFO - Result <val>: [val_Loss: 1.2481, val_Accuracy: 0.5967, val_Dirichlet: 862.03693, val_time: 0.34 (s)]
+2024-05-26 09:36:30,404 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_057.pt saved
+2024-05-26 09:36:30,405 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:30,405 - easytorch-training - INFO - Epoch 58 / 200
+2024-05-26 09:36:30,714 - easytorch-training - INFO - Result <train>: [train_Loss: 1.2347, train_time: 0.31 (s), lr: 8.13e-04]
+2024-05-26 09:36:30,715 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:31,051 - easytorch-training - INFO - Result <val>: [val_Loss: 1.1336, val_Accuracy: 0.6203, val_Dirichlet: 1413.09143, val_time: 0.34 (s)]
+2024-05-26 09:36:31,193 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_058.pt saved
+2024-05-26 09:36:31,194 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:31,194 - easytorch-training - INFO - Epoch 59 / 200
+2024-05-26 09:36:31,508 - easytorch-training - INFO - Result <train>: [train_Loss: 1.1208, train_time: 0.31 (s), lr: 8.06e-04]
+2024-05-26 09:36:31,509 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:31,837 - easytorch-training - INFO - Result <val>: [val_Loss: 1.1856, val_Accuracy: 0.5915, val_Dirichlet: 1889.90332, val_time: 0.33 (s)]
+2024-05-26 09:36:31,979 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_059.pt saved
+2024-05-26 09:36:31,979 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:31,979 - easytorch-training - INFO - Epoch 60 / 200
+2024-05-26 09:36:32,285 - easytorch-training - INFO - Result <train>: [train_Loss: 1.1667, train_time: 0.31 (s), lr: 8.00e-04]
+2024-05-26 09:36:32,286 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:32,613 - easytorch-training - INFO - Result <val>: [val_Loss: 1.0964, val_Accuracy: 0.5752, val_Dirichlet: 1833.86426, val_time: 0.33 (s)]
+2024-05-26 09:36:32,753 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_060.pt saved
+2024-05-26 09:36:32,919 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:32,919 - easytorch-training - INFO - Epoch 61 / 200
+2024-05-26 09:36:33,227 - easytorch-training - INFO - Result <train>: [train_Loss: 1.0742, train_time: 0.31 (s), lr: 7.94e-04]
+2024-05-26 09:36:33,228 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:33,560 - easytorch-training - INFO - Result <val>: [val_Loss: 1.1184, val_Accuracy: 0.5850, val_Dirichlet: 1416.69336, val_time: 0.33 (s)]
+2024-05-26 09:36:33,703 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_061.pt saved
+2024-05-26 09:36:33,703 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:33,703 - easytorch-training - INFO - Epoch 62 / 200
+2024-05-26 09:36:34,008 - easytorch-training - INFO - Result <train>: [train_Loss: 1.1038, train_time: 0.30 (s), lr: 7.88e-04]
+2024-05-26 09:36:34,009 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:34,342 - easytorch-training - INFO - Result <val>: [val_Loss: 1.0962, val_Accuracy: 0.6399, val_Dirichlet: 1398.75793, val_time: 0.33 (s)]
+2024-05-26 09:36:34,486 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_062.pt saved
+2024-05-26 09:36:34,486 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:34,486 - easytorch-training - INFO - Epoch 63 / 200
+2024-05-26 09:36:34,798 - easytorch-training - INFO - Result <train>: [train_Loss: 1.0787, train_time: 0.31 (s), lr: 7.81e-04]
+2024-05-26 09:36:34,799 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:35,125 - easytorch-training - INFO - Result <val>: [val_Loss: 0.9180, val_Accuracy: 0.7190, val_Dirichlet: 1674.64856, val_time: 0.33 (s)]
+2024-05-26 09:36:35,268 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_063.pt saved
+2024-05-26 09:36:35,269 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:35,269 - easytorch-training - INFO - Epoch 64 / 200
+2024-05-26 09:36:35,580 - easytorch-training - INFO - Result <train>: [train_Loss: 0.8921, train_time: 0.31 (s), lr: 7.75e-04]
+2024-05-26 09:36:35,581 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:35,906 - easytorch-training - INFO - Result <val>: [val_Loss: 0.9957, val_Accuracy: 0.6673, val_Dirichlet: 2222.20239, val_time: 0.33 (s)]
+2024-05-26 09:36:36,049 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_064.pt saved
+2024-05-26 09:36:36,050 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:36,050 - easytorch-training - INFO - Epoch 65 / 200
+2024-05-26 09:36:36,353 - easytorch-training - INFO - Result <train>: [train_Loss: 0.9623, train_time: 0.30 (s), lr: 7.68e-04]
+2024-05-26 09:36:36,354 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:36,690 - easytorch-training - INFO - Result <val>: [val_Loss: 0.8693, val_Accuracy: 0.7052, val_Dirichlet: 2360.71851, val_time: 0.34 (s)]
+2024-05-26 09:36:36,834 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_065.pt saved
+2024-05-26 09:36:36,834 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:36,834 - easytorch-training - INFO - Epoch 66 / 200
+2024-05-26 09:36:37,146 - easytorch-training - INFO - Result <train>: [train_Loss: 0.8608, train_time: 0.31 (s), lr: 7.61e-04]
+2024-05-26 09:36:37,147 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:37,471 - easytorch-training - INFO - Result <val>: [val_Loss: 0.9061, val_Accuracy: 0.7346, val_Dirichlet: 2141.95337, val_time: 0.32 (s)]
+2024-05-26 09:36:37,614 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_066.pt saved
+2024-05-26 09:36:37,614 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:37,614 - easytorch-training - INFO - Epoch 67 / 200
+2024-05-26 09:36:37,918 - easytorch-training - INFO - Result <train>: [train_Loss: 0.9364, train_time: 0.30 (s), lr: 7.55e-04]
+2024-05-26 09:36:37,919 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:38,244 - easytorch-training - INFO - Result <val>: [val_Loss: 0.8289, val_Accuracy: 0.7451, val_Dirichlet: 2147.97046, val_time: 0.33 (s)]
+2024-05-26 09:36:38,387 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_067.pt saved
+2024-05-26 09:36:38,387 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:38,387 - easytorch-training - INFO - Epoch 68 / 200
+2024-05-26 09:36:38,700 - easytorch-training - INFO - Result <train>: [train_Loss: 0.8089, train_time: 0.31 (s), lr: 7.48e-04]
+2024-05-26 09:36:38,701 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:39,026 - easytorch-training - INFO - Result <val>: [val_Loss: 0.8348, val_Accuracy: 0.7131, val_Dirichlet: 2420.85522, val_time: 0.33 (s)]
+2024-05-26 09:36:39,170 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_068.pt saved
+2024-05-26 09:36:39,170 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:39,170 - easytorch-training - INFO - Epoch 69 / 200
+2024-05-26 09:36:39,482 - easytorch-training - INFO - Result <train>: [train_Loss: 0.7770, train_time: 0.31 (s), lr: 7.41e-04]
+2024-05-26 09:36:39,483 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:39,815 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7739, val_Accuracy: 0.7327, val_Dirichlet: 2595.19409, val_time: 0.33 (s)]
+2024-05-26 09:36:39,958 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_069.pt saved
+2024-05-26 09:36:39,958 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:39,959 - easytorch-training - INFO - Epoch 70 / 200
+2024-05-26 09:36:40,268 - easytorch-training - INFO - Result <train>: [train_Loss: 0.7171, train_time: 0.31 (s), lr: 7.34e-04]
+2024-05-26 09:36:40,269 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:40,597 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7819, val_Accuracy: 0.7549, val_Dirichlet: 2501.06226, val_time: 0.33 (s)]
+2024-05-26 09:36:40,741 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_070.pt saved
+2024-05-26 09:36:40,953 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:40,953 - easytorch-training - INFO - Epoch 71 / 200
+2024-05-26 09:36:41,254 - easytorch-training - INFO - Result <train>: [train_Loss: 0.7239, train_time: 0.30 (s), lr: 7.27e-04]
+2024-05-26 09:36:41,255 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:41,592 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7563, val_Accuracy: 0.7562, val_Dirichlet: 2639.88135, val_time: 0.34 (s)]
+2024-05-26 09:36:41,738 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_071.pt saved
+2024-05-26 09:36:41,738 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:41,738 - easytorch-training - INFO - Epoch 72 / 200
+2024-05-26 09:36:42,048 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6997, train_time: 0.31 (s), lr: 7.20e-04]
+2024-05-26 09:36:42,049 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:42,375 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7131, val_Accuracy: 0.7778, val_Dirichlet: 2626.04883, val_time: 0.33 (s)]
+2024-05-26 09:36:42,519 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_072.pt saved
+2024-05-26 09:36:42,520 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:42,520 - easytorch-training - INFO - Epoch 73 / 200
+2024-05-26 09:36:42,824 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6614, train_time: 0.30 (s), lr: 7.13e-04]
+2024-05-26 09:36:42,825 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:43,152 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7044, val_Accuracy: 0.7830, val_Dirichlet: 2549.97534, val_time: 0.33 (s)]
+2024-05-26 09:36:43,295 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_073.pt saved
+2024-05-26 09:36:43,295 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:43,296 - easytorch-training - INFO - Epoch 74 / 200
+2024-05-26 09:36:43,604 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6559, train_time: 0.31 (s), lr: 7.06e-04]
+2024-05-26 09:36:43,605 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:43,936 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7033, val_Accuracy: 0.7856, val_Dirichlet: 2801.99585, val_time: 0.33 (s)]
+2024-05-26 09:36:44,079 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_074.pt saved
+2024-05-26 09:36:44,079 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:44,079 - easytorch-training - INFO - Epoch 75 / 200
+2024-05-26 09:36:44,388 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6614, train_time: 0.31 (s), lr: 6.99e-04]
+2024-05-26 09:36:44,389 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:44,721 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7091, val_Accuracy: 0.7824, val_Dirichlet: 2536.91992, val_time: 0.33 (s)]
+2024-05-26 09:36:44,864 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_075.pt saved
+2024-05-26 09:36:44,864 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:44,864 - easytorch-training - INFO - Epoch 76 / 200
+2024-05-26 09:36:45,165 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6632, train_time: 0.30 (s), lr: 6.91e-04]
+2024-05-26 09:36:45,166 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:45,494 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7128, val_Accuracy: 0.7843, val_Dirichlet: 3011.70142, val_time: 0.33 (s)]
+2024-05-26 09:36:45,640 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_076.pt saved
+2024-05-26 09:36:45,640 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:45,640 - easytorch-training - INFO - Epoch 77 / 200
+2024-05-26 09:36:45,952 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6647, train_time: 0.31 (s), lr: 6.84e-04]
+2024-05-26 09:36:45,952 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:46,283 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7038, val_Accuracy: 0.7869, val_Dirichlet: 2770.81934, val_time: 0.33 (s)]
+2024-05-26 09:36:46,424 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_077.pt saved
+2024-05-26 09:36:46,425 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:46,425 - easytorch-training - INFO - Epoch 78 / 200
+2024-05-26 09:36:46,735 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6350, train_time: 0.31 (s), lr: 6.77e-04]
+2024-05-26 09:36:46,736 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:47,062 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6968, val_Accuracy: 0.7804, val_Dirichlet: 3193.86792, val_time: 0.33 (s)]
+2024-05-26 09:36:47,204 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_078.pt saved
+2024-05-26 09:36:47,204 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:47,204 - easytorch-training - INFO - Epoch 79 / 200
+2024-05-26 09:36:47,516 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6211, train_time: 0.31 (s), lr: 6.69e-04]
+2024-05-26 09:36:47,517 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:47,842 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7076, val_Accuracy: 0.7843, val_Dirichlet: 3109.28125, val_time: 0.33 (s)]
+2024-05-26 09:36:47,984 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_079.pt saved
+2024-05-26 09:36:47,984 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:47,984 - easytorch-training - INFO - Epoch 80 / 200
+2024-05-26 09:36:48,297 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6283, train_time: 0.31 (s), lr: 6.62e-04]
+2024-05-26 09:36:48,298 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:48,625 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6960, val_Accuracy: 0.7784, val_Dirichlet: 3714.38501, val_time: 0.33 (s)]
+2024-05-26 09:36:48,767 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_080.pt saved
+2024-05-26 09:36:48,932 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:48,932 - easytorch-training - INFO - Epoch 81 / 200
+2024-05-26 09:36:49,254 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6185, train_time: 0.32 (s), lr: 6.55e-04]
+2024-05-26 09:36:49,255 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:49,578 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7072, val_Accuracy: 0.7797, val_Dirichlet: 3551.05713, val_time: 0.32 (s)]
+2024-05-26 09:36:49,723 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_081.pt saved
+2024-05-26 09:36:49,724 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:49,724 - easytorch-training - INFO - Epoch 82 / 200
+2024-05-26 09:36:50,037 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6169, train_time: 0.31 (s), lr: 6.47e-04]
+2024-05-26 09:36:50,039 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:50,367 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6895, val_Accuracy: 0.7850, val_Dirichlet: 3740.11646, val_time: 0.33 (s)]
+2024-05-26 09:36:50,509 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_082.pt saved
+2024-05-26 09:36:50,510 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:26
+2024-05-26 09:36:50,510 - easytorch-training - INFO - Epoch 83 / 200
+2024-05-26 09:36:50,828 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6204, train_time: 0.32 (s), lr: 6.39e-04]
+2024-05-26 09:36:50,829 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:51,158 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6649, val_Accuracy: 0.7922, val_Dirichlet: 3327.63550, val_time: 0.33 (s)]
+2024-05-26 09:36:51,300 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_083.pt saved
+2024-05-26 09:36:51,300 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:51,300 - easytorch-training - INFO - Epoch 84 / 200
+2024-05-26 09:36:51,613 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5907, train_time: 0.31 (s), lr: 6.32e-04]
+2024-05-26 09:36:51,614 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:51,948 - easytorch-training - INFO - Result <val>: [val_Loss: 0.7223, val_Accuracy: 0.7725, val_Dirichlet: 3415.50122, val_time: 0.33 (s)]
+2024-05-26 09:36:52,089 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_084.pt saved
+2024-05-26 09:36:52,090 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:52,090 - easytorch-training - INFO - Epoch 85 / 200
+2024-05-26 09:36:52,406 - easytorch-training - INFO - Result <train>: [train_Loss: 0.6382, train_time: 0.32 (s), lr: 6.24e-04]
+2024-05-26 09:36:52,407 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:52,728 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6250, val_Accuracy: 0.7895, val_Dirichlet: 3212.35474, val_time: 0.32 (s)]
+2024-05-26 09:36:52,871 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_085.pt saved
+2024-05-26 09:36:52,871 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:52,871 - easytorch-training - INFO - Epoch 86 / 200
+2024-05-26 09:36:53,182 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5601, train_time: 0.31 (s), lr: 6.17e-04]
+2024-05-26 09:36:53,183 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:53,510 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6514, val_Accuracy: 0.7915, val_Dirichlet: 2846.01831, val_time: 0.33 (s)]
+2024-05-26 09:36:53,653 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_086.pt saved
+2024-05-26 09:36:53,653 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:53,653 - easytorch-training - INFO - Epoch 87 / 200
+2024-05-26 09:36:53,963 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5997, train_time: 0.31 (s), lr: 6.09e-04]
+2024-05-26 09:36:53,964 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:54,298 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6100, val_Accuracy: 0.7974, val_Dirichlet: 3070.87109, val_time: 0.33 (s)]
+2024-05-26 09:36:54,442 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_087.pt saved
+2024-05-26 09:36:54,443 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:54,443 - easytorch-training - INFO - Epoch 88 / 200
+2024-05-26 09:36:54,756 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5591, train_time: 0.31 (s), lr: 6.01e-04]
+2024-05-26 09:36:54,757 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:55,086 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6166, val_Accuracy: 0.8033, val_Dirichlet: 3080.90356, val_time: 0.33 (s)]
+2024-05-26 09:36:55,229 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_088.pt saved
+2024-05-26 09:36:55,229 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:55,229 - easytorch-training - INFO - Epoch 89 / 200
+2024-05-26 09:36:55,538 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5564, train_time: 0.31 (s), lr: 5.94e-04]
+2024-05-26 09:36:55,539 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:55,871 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6114, val_Accuracy: 0.7915, val_Dirichlet: 2895.07764, val_time: 0.33 (s)]
+2024-05-26 09:36:56,014 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_089.pt saved
+2024-05-26 09:36:56,014 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:56,014 - easytorch-training - INFO - Epoch 90 / 200
+2024-05-26 09:36:56,324 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5524, train_time: 0.31 (s), lr: 5.86e-04]
+2024-05-26 09:36:56,324 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:56,657 - easytorch-training - INFO - Result <val>: [val_Loss: 0.6164, val_Accuracy: 0.8020, val_Dirichlet: 3308.17383, val_time: 0.33 (s)]
+2024-05-26 09:36:56,799 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_090.pt saved
+2024-05-26 09:36:56,964 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:56,964 - easytorch-training - INFO - Epoch 91 / 200
+2024-05-26 09:36:57,278 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5667, train_time: 0.31 (s), lr: 5.78e-04]
+2024-05-26 09:36:57,279 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:57,607 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5878, val_Accuracy: 0.8150, val_Dirichlet: 3159.19214, val_time: 0.33 (s)]
+2024-05-26 09:36:57,749 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_091.pt saved
+2024-05-26 09:36:57,749 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:57,749 - easytorch-training - INFO - Epoch 92 / 200
+2024-05-26 09:36:58,045 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5345, train_time: 0.30 (s), lr: 5.70e-04]
+2024-05-26 09:36:58,046 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:58,384 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5973, val_Accuracy: 0.7908, val_Dirichlet: 3112.93286, val_time: 0.34 (s)]
+2024-05-26 09:36:58,527 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_092.pt saved
+2024-05-26 09:36:58,528 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:58,528 - easytorch-training - INFO - Epoch 93 / 200
+2024-05-26 09:36:58,830 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5353, train_time: 0.30 (s), lr: 5.63e-04]
+2024-05-26 09:36:58,831 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:59,163 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5910, val_Accuracy: 0.8098, val_Dirichlet: 3554.90137, val_time: 0.33 (s)]
+2024-05-26 09:36:59,306 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_093.pt saved
+2024-05-26 09:36:59,307 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:36:59,307 - easytorch-training - INFO - Epoch 94 / 200
+2024-05-26 09:36:59,621 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5240, train_time: 0.31 (s), lr: 5.55e-04]
+2024-05-26 09:36:59,622 - easytorch-training - INFO - Start validation.
+2024-05-26 09:36:59,950 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5577, val_Accuracy: 0.8137, val_Dirichlet: 3508.60986, val_time: 0.33 (s)]
+2024-05-26 09:37:00,093 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_094.pt saved
+2024-05-26 09:37:00,093 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:00,093 - easytorch-training - INFO - Epoch 95 / 200
+2024-05-26 09:37:00,415 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4990, train_time: 0.32 (s), lr: 5.47e-04]
+2024-05-26 09:37:00,416 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:00,735 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5610, val_Accuracy: 0.8183, val_Dirichlet: 3186.57617, val_time: 0.32 (s)]
+2024-05-26 09:37:00,878 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_095.pt saved
+2024-05-26 09:37:00,879 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:00,879 - easytorch-training - INFO - Epoch 96 / 200
+2024-05-26 09:37:01,195 - easytorch-training - INFO - Result <train>: [train_Loss: 0.5104, train_time: 0.32 (s), lr: 5.39e-04]
+2024-05-26 09:37:01,196 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:01,519 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5298, val_Accuracy: 0.8235, val_Dirichlet: 3364.63501, val_time: 0.32 (s)]
+2024-05-26 09:37:01,662 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_096.pt saved
+2024-05-26 09:37:01,662 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:01,662 - easytorch-training - INFO - Epoch 97 / 200
+2024-05-26 09:37:01,972 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4735, train_time: 0.31 (s), lr: 5.31e-04]
+2024-05-26 09:37:01,973 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:02,302 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5468, val_Accuracy: 0.8405, val_Dirichlet: 3645.62915, val_time: 0.33 (s)]
+2024-05-26 09:37:02,445 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_097.pt saved
+2024-05-26 09:37:02,446 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:02,446 - easytorch-training - INFO - Epoch 98 / 200
+2024-05-26 09:37:02,761 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4893, train_time: 0.32 (s), lr: 5.24e-04]
+2024-05-26 09:37:02,763 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:03,091 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5081, val_Accuracy: 0.8444, val_Dirichlet: 3473.23120, val_time: 0.33 (s)]
+2024-05-26 09:37:03,234 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_098.pt saved
+2024-05-26 09:37:03,234 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:03,234 - easytorch-training - INFO - Epoch 99 / 200
+2024-05-26 09:37:03,544 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4549, train_time: 0.31 (s), lr: 5.16e-04]
+2024-05-26 09:37:03,545 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:03,874 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5117, val_Accuracy: 0.8438, val_Dirichlet: 3362.98145, val_time: 0.33 (s)]
+2024-05-26 09:37:04,017 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_099.pt saved
+2024-05-26 09:37:04,017 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:04,017 - easytorch-training - INFO - Epoch 100 / 200
+2024-05-26 09:37:04,331 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4647, train_time: 0.31 (s), lr: 5.08e-04]
+2024-05-26 09:37:04,332 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:04,652 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4924, val_Accuracy: 0.8601, val_Dirichlet: 3737.79858, val_time: 0.32 (s)]
+2024-05-26 09:37:04,793 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_100.pt saved
+2024-05-26 09:37:04,958 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:04,958 - easytorch-training - INFO - Epoch 101 / 200
+2024-05-26 09:37:05,278 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4376, train_time: 0.32 (s), lr: 5.00e-04]
+2024-05-26 09:37:05,279 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:05,609 - easytorch-training - INFO - Result <val>: [val_Loss: 0.5022, val_Accuracy: 0.8699, val_Dirichlet: 4050.71558, val_time: 0.33 (s)]
+2024-05-26 09:37:05,755 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_101.pt saved
+2024-05-26 09:37:05,771 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:05,771 - easytorch-training - INFO - Epoch 102 / 200
+2024-05-26 09:37:06,085 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4407, train_time: 0.31 (s), lr: 4.92e-04]
+2024-05-26 09:37:06,086 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:06,410 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4813, val_Accuracy: 0.8647, val_Dirichlet: 3887.07593, val_time: 0.32 (s)]
+2024-05-26 09:37:06,553 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_102.pt saved
+2024-05-26 09:37:06,554 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:06,554 - easytorch-training - INFO - Epoch 103 / 200
+2024-05-26 09:37:06,860 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4195, train_time: 0.31 (s), lr: 4.84e-04]
+2024-05-26 09:37:06,861 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:07,194 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4680, val_Accuracy: 0.8627, val_Dirichlet: 3827.53418, val_time: 0.33 (s)]
+2024-05-26 09:37:07,335 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_103.pt saved
+2024-05-26 09:37:07,336 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:07,336 - easytorch-training - INFO - Epoch 104 / 200
+2024-05-26 09:37:07,635 - easytorch-training - INFO - Result <train>: [train_Loss: 0.4156, train_time: 0.30 (s), lr: 4.76e-04]
+2024-05-26 09:37:07,636 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:07,977 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4509, val_Accuracy: 0.8752, val_Dirichlet: 4124.13232, val_time: 0.34 (s)]
+2024-05-26 09:37:08,122 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_104.pt saved
+2024-05-26 09:37:08,122 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:08,122 - easytorch-training - INFO - Epoch 105 / 200
+2024-05-26 09:37:08,436 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3997, train_time: 0.31 (s), lr: 4.69e-04]
+2024-05-26 09:37:08,438 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:08,760 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4528, val_Accuracy: 0.8758, val_Dirichlet: 4221.39648, val_time: 0.32 (s)]
+2024-05-26 09:37:08,903 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_105.pt saved
+2024-05-26 09:37:08,903 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:08,903 - easytorch-training - INFO - Epoch 106 / 200
+2024-05-26 09:37:09,214 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3973, train_time: 0.31 (s), lr: 4.61e-04]
+2024-05-26 09:37:09,215 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:09,540 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4383, val_Accuracy: 0.8784, val_Dirichlet: 4175.92676, val_time: 0.32 (s)]
+2024-05-26 09:37:09,684 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_106.pt saved
+2024-05-26 09:37:09,684 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:09,684 - easytorch-training - INFO - Epoch 107 / 200
+2024-05-26 09:37:09,984 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3895, train_time: 0.30 (s), lr: 4.53e-04]
+2024-05-26 09:37:09,985 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:10,318 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4398, val_Accuracy: 0.8745, val_Dirichlet: 4037.44653, val_time: 0.33 (s)]
+2024-05-26 09:37:10,462 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_107.pt saved
+2024-05-26 09:37:10,463 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:10,463 - easytorch-training - INFO - Epoch 108 / 200
+2024-05-26 09:37:10,785 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3893, train_time: 0.32 (s), lr: 4.45e-04]
+2024-05-26 09:37:10,786 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:11,104 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4252, val_Accuracy: 0.8810, val_Dirichlet: 4211.23633, val_time: 0.32 (s)]
+2024-05-26 09:37:11,248 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_108.pt saved
+2024-05-26 09:37:11,248 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:11,248 - easytorch-training - INFO - Epoch 109 / 200
+2024-05-26 09:37:11,564 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3710, train_time: 0.32 (s), lr: 4.37e-04]
+2024-05-26 09:37:11,565 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:11,889 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4240, val_Accuracy: 0.8830, val_Dirichlet: 4392.55127, val_time: 0.32 (s)]
+2024-05-26 09:37:12,033 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_109.pt saved
+2024-05-26 09:37:12,033 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:12,033 - easytorch-training - INFO - Epoch 110 / 200
+2024-05-26 09:37:12,351 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3716, train_time: 0.32 (s), lr: 4.30e-04]
+2024-05-26 09:37:12,352 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:12,685 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4160, val_Accuracy: 0.8830, val_Dirichlet: 4363.76660, val_time: 0.33 (s)]
+2024-05-26 09:37:12,831 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_110.pt saved
+2024-05-26 09:37:12,998 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:12,998 - easytorch-training - INFO - Epoch 111 / 200
+2024-05-26 09:37:13,315 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3636, train_time: 0.32 (s), lr: 4.22e-04]
+2024-05-26 09:37:13,316 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:13,638 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4160, val_Accuracy: 0.8902, val_Dirichlet: 4261.02148, val_time: 0.32 (s)]
+2024-05-26 09:37:13,784 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_111.pt saved
+2024-05-26 09:37:13,785 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:13,785 - easytorch-training - INFO - Epoch 112 / 200
+2024-05-26 09:37:14,091 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3558, train_time: 0.31 (s), lr: 4.14e-04]
+2024-05-26 09:37:14,092 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:14,430 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4209, val_Accuracy: 0.8771, val_Dirichlet: 4311.54248, val_time: 0.34 (s)]
+2024-05-26 09:37:14,570 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_112.pt saved
+2024-05-26 09:37:14,570 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:14,570 - easytorch-training - INFO - Epoch 113 / 200
+2024-05-26 09:37:14,887 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3561, train_time: 0.32 (s), lr: 4.06e-04]
+2024-05-26 09:37:14,888 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:15,216 - easytorch-training - INFO - Result <val>: [val_Loss: 0.4008, val_Accuracy: 0.8908, val_Dirichlet: 4360.63525, val_time: 0.33 (s)]
+2024-05-26 09:37:15,361 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_113.pt saved
+2024-05-26 09:37:15,361 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:15,361 - easytorch-training - INFO - Epoch 114 / 200
+2024-05-26 09:37:15,671 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3499, train_time: 0.31 (s), lr: 3.99e-04]
+2024-05-26 09:37:15,672 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:15,997 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3945, val_Accuracy: 0.8915, val_Dirichlet: 4117.35791, val_time: 0.32 (s)]
+2024-05-26 09:37:16,140 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_114.pt saved
+2024-05-26 09:37:16,141 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:16,141 - easytorch-training - INFO - Epoch 115 / 200
+2024-05-26 09:37:16,459 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3422, train_time: 0.32 (s), lr: 3.91e-04]
+2024-05-26 09:37:16,460 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:16,778 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3930, val_Accuracy: 0.8876, val_Dirichlet: 3982.41724, val_time: 0.32 (s)]
+2024-05-26 09:37:16,919 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_115.pt saved
+2024-05-26 09:37:16,919 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:16,919 - easytorch-training - INFO - Epoch 116 / 200
+2024-05-26 09:37:17,235 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3429, train_time: 0.32 (s), lr: 3.83e-04]
+2024-05-26 09:37:17,236 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:17,560 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3847, val_Accuracy: 0.8928, val_Dirichlet: 4093.85303, val_time: 0.32 (s)]
+2024-05-26 09:37:17,704 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_116.pt saved
+2024-05-26 09:37:17,704 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:17,704 - easytorch-training - INFO - Epoch 117 / 200
+2024-05-26 09:37:18,003 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3358, train_time: 0.30 (s), lr: 3.76e-04]
+2024-05-26 09:37:18,004 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:18,333 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3848, val_Accuracy: 0.8967, val_Dirichlet: 4130.06641, val_time: 0.33 (s)]
+2024-05-26 09:37:18,478 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_117.pt saved
+2024-05-26 09:37:18,478 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:18,478 - easytorch-training - INFO - Epoch 118 / 200
+2024-05-26 09:37:18,781 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3319, train_time: 0.30 (s), lr: 3.68e-04]
+2024-05-26 09:37:18,782 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:19,115 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3949, val_Accuracy: 0.8895, val_Dirichlet: 3978.54004, val_time: 0.33 (s)]
+2024-05-26 09:37:19,259 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_118.pt saved
+2024-05-26 09:37:19,259 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:19,259 - easytorch-training - INFO - Epoch 119 / 200
+2024-05-26 09:37:19,574 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3340, train_time: 0.31 (s), lr: 3.61e-04]
+2024-05-26 09:37:19,574 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:19,909 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3893, val_Accuracy: 0.8928, val_Dirichlet: 4215.21729, val_time: 0.33 (s)]
+2024-05-26 09:37:20,050 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_119.pt saved
+2024-05-26 09:37:20,050 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:20,051 - easytorch-training - INFO - Epoch 120 / 200
+2024-05-26 09:37:20,367 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3296, train_time: 0.32 (s), lr: 3.53e-04]
+2024-05-26 09:37:20,368 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:20,686 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3800, val_Accuracy: 0.9013, val_Dirichlet: 4213.53320, val_time: 0.32 (s)]
+2024-05-26 09:37:20,827 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_120.pt saved
+2024-05-26 09:37:20,993 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:20,993 - easytorch-training - INFO - Epoch 121 / 200
+2024-05-26 09:37:21,304 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3247, train_time: 0.31 (s), lr: 3.45e-04]
+2024-05-26 09:37:21,305 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:21,628 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3822, val_Accuracy: 0.8967, val_Dirichlet: 4188.06543, val_time: 0.32 (s)]
+2024-05-26 09:37:21,769 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_121.pt saved
+2024-05-26 09:37:21,769 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:21,769 - easytorch-training - INFO - Epoch 122 / 200
+2024-05-26 09:37:22,077 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3259, train_time: 0.31 (s), lr: 3.38e-04]
+2024-05-26 09:37:22,078 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:22,409 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3798, val_Accuracy: 0.8974, val_Dirichlet: 4283.37061, val_time: 0.33 (s)]
+2024-05-26 09:37:22,551 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_122.pt saved
+2024-05-26 09:37:22,551 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:22,552 - easytorch-training - INFO - Epoch 123 / 200
+2024-05-26 09:37:22,858 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3212, train_time: 0.31 (s), lr: 3.31e-04]
+2024-05-26 09:37:22,859 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:23,185 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3821, val_Accuracy: 0.8993, val_Dirichlet: 4415.05615, val_time: 0.33 (s)]
+2024-05-26 09:37:23,327 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_123.pt saved
+2024-05-26 09:37:23,327 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:23,327 - easytorch-training - INFO - Epoch 124 / 200
+2024-05-26 09:37:23,642 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3195, train_time: 0.32 (s), lr: 3.23e-04]
+2024-05-26 09:37:23,643 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:23,974 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3838, val_Accuracy: 0.8961, val_Dirichlet: 4397.62256, val_time: 0.33 (s)]
+2024-05-26 09:37:24,115 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_124.pt saved
+2024-05-26 09:37:24,116 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:24,116 - easytorch-training - INFO - Epoch 125 / 200
+2024-05-26 09:37:24,417 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3157, train_time: 0.30 (s), lr: 3.16e-04]
+2024-05-26 09:37:24,418 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:24,747 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3805, val_Accuracy: 0.8974, val_Dirichlet: 4317.31055, val_time: 0.33 (s)]
+2024-05-26 09:37:24,888 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_125.pt saved
+2024-05-26 09:37:24,889 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:24,889 - easytorch-training - INFO - Epoch 126 / 200
+2024-05-26 09:37:25,196 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3122, train_time: 0.31 (s), lr: 3.09e-04]
+2024-05-26 09:37:25,197 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:25,531 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3791, val_Accuracy: 0.9046, val_Dirichlet: 4359.14648, val_time: 0.33 (s)]
+2024-05-26 09:37:25,673 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_126.pt saved
+2024-05-26 09:37:25,673 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:25,673 - easytorch-training - INFO - Epoch 127 / 200
+2024-05-26 09:37:25,990 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3104, train_time: 0.32 (s), lr: 3.01e-04]
+2024-05-26 09:37:25,991 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:26,315 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3871, val_Accuracy: 0.9007, val_Dirichlet: 4477.69092, val_time: 0.32 (s)]
+2024-05-26 09:37:26,457 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_127.pt saved
+2024-05-26 09:37:26,457 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:26,457 - easytorch-training - INFO - Epoch 128 / 200
+2024-05-26 09:37:26,771 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3094, train_time: 0.31 (s), lr: 2.94e-04]
+2024-05-26 09:37:26,772 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:27,100 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3840, val_Accuracy: 0.8987, val_Dirichlet: 4476.97803, val_time: 0.33 (s)]
+2024-05-26 09:37:27,242 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_128.pt saved
+2024-05-26 09:37:27,242 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:27,242 - easytorch-training - INFO - Epoch 129 / 200
+2024-05-26 09:37:27,554 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3064, train_time: 0.31 (s), lr: 2.87e-04]
+2024-05-26 09:37:27,555 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:27,883 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3746, val_Accuracy: 0.9072, val_Dirichlet: 4414.62842, val_time: 0.33 (s)]
+2024-05-26 09:37:28,027 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_129.pt saved
+2024-05-26 09:37:28,027 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:28,027 - easytorch-training - INFO - Epoch 130 / 200
+2024-05-26 09:37:28,345 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3048, train_time: 0.32 (s), lr: 2.80e-04]
+2024-05-26 09:37:28,346 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:28,668 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3756, val_Accuracy: 0.9013, val_Dirichlet: 4535.72021, val_time: 0.32 (s)]
+2024-05-26 09:37:28,810 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_130.pt saved
+2024-05-26 09:37:28,972 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:28,973 - easytorch-training - INFO - Epoch 131 / 200
+2024-05-26 09:37:29,288 - easytorch-training - INFO - Result <train>: [train_Loss: 0.3013, train_time: 0.32 (s), lr: 2.73e-04]
+2024-05-26 09:37:29,289 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:29,615 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3762, val_Accuracy: 0.9000, val_Dirichlet: 4700.51172, val_time: 0.33 (s)]
+2024-05-26 09:37:29,759 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_131.pt saved
+2024-05-26 09:37:29,759 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:29,759 - easytorch-training - INFO - Epoch 132 / 200
+2024-05-26 09:37:30,074 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2995, train_time: 0.31 (s), lr: 2.66e-04]
+2024-05-26 09:37:30,075 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:30,404 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3690, val_Accuracy: 0.9072, val_Dirichlet: 4674.62549, val_time: 0.33 (s)]
+2024-05-26 09:37:30,546 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_132.pt saved
+2024-05-26 09:37:30,546 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:30,547 - easytorch-training - INFO - Epoch 133 / 200
+2024-05-26 09:37:30,863 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2980, train_time: 0.32 (s), lr: 2.59e-04]
+2024-05-26 09:37:30,864 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:31,192 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3742, val_Accuracy: 0.8974, val_Dirichlet: 4711.05469, val_time: 0.33 (s)]
+2024-05-26 09:37:31,332 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_133.pt saved
+2024-05-26 09:37:31,332 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:31,332 - easytorch-training - INFO - Epoch 134 / 200
+2024-05-26 09:37:31,648 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2975, train_time: 0.32 (s), lr: 2.52e-04]
+2024-05-26 09:37:31,648 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:31,975 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3683, val_Accuracy: 0.9092, val_Dirichlet: 4731.51562, val_time: 0.33 (s)]
+2024-05-26 09:37:32,117 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_134.pt saved
+2024-05-26 09:37:32,117 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:32,117 - easytorch-training - INFO - Epoch 135 / 200
+2024-05-26 09:37:32,429 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2964, train_time: 0.31 (s), lr: 2.45e-04]
+2024-05-26 09:37:32,430 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:32,754 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3735, val_Accuracy: 0.9020, val_Dirichlet: 4775.74121, val_time: 0.32 (s)]
+2024-05-26 09:37:32,895 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_135.pt saved
+2024-05-26 09:37:32,895 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:32,896 - easytorch-training - INFO - Epoch 136 / 200
+2024-05-26 09:37:33,209 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2939, train_time: 0.31 (s), lr: 2.39e-04]
+2024-05-26 09:37:33,210 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:33,535 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3661, val_Accuracy: 0.9085, val_Dirichlet: 4779.84082, val_time: 0.32 (s)]
+2024-05-26 09:37:33,679 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_136.pt saved
+2024-05-26 09:37:33,679 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:33,679 - easytorch-training - INFO - Epoch 137 / 200
+2024-05-26 09:37:33,989 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2904, train_time: 0.31 (s), lr: 2.32e-04]
+2024-05-26 09:37:33,990 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:34,318 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3643, val_Accuracy: 0.9111, val_Dirichlet: 4830.82959, val_time: 0.33 (s)]
+2024-05-26 09:37:34,459 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_137.pt saved
+2024-05-26 09:37:34,460 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:34,460 - easytorch-training - INFO - Epoch 138 / 200
+2024-05-26 09:37:34,773 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2898, train_time: 0.31 (s), lr: 2.25e-04]
+2024-05-26 09:37:34,774 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:35,105 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3716, val_Accuracy: 0.9013, val_Dirichlet: 4892.50732, val_time: 0.33 (s)]
+2024-05-26 09:37:35,246 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_138.pt saved
+2024-05-26 09:37:35,246 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:35,246 - easytorch-training - INFO - Epoch 139 / 200
+2024-05-26 09:37:35,558 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2906, train_time: 0.31 (s), lr: 2.19e-04]
+2024-05-26 09:37:35,559 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:35,890 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3562, val_Accuracy: 0.9118, val_Dirichlet: 4752.86182, val_time: 0.33 (s)]
+2024-05-26 09:37:36,032 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_139.pt saved
+2024-05-26 09:37:36,032 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:36,032 - easytorch-training - INFO - Epoch 140 / 200
+2024-05-26 09:37:36,347 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2873, train_time: 0.31 (s), lr: 2.12e-04]
+2024-05-26 09:37:36,347 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:36,670 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3556, val_Accuracy: 0.9118, val_Dirichlet: 4754.86719, val_time: 0.32 (s)]
+2024-05-26 09:37:36,811 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_140.pt saved
+2024-05-26 09:37:36,971 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:36,971 - easytorch-training - INFO - Epoch 141 / 200
+2024-05-26 09:37:37,277 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2854, train_time: 0.31 (s), lr: 2.06e-04]
+2024-05-26 09:37:37,278 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:37,604 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3631, val_Accuracy: 0.9072, val_Dirichlet: 4920.48291, val_time: 0.33 (s)]
+2024-05-26 09:37:37,748 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_141.pt saved
+2024-05-26 09:37:37,748 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:37,748 - easytorch-training - INFO - Epoch 142 / 200
+2024-05-26 09:37:38,061 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2850, train_time: 0.31 (s), lr: 2.00e-04]
+2024-05-26 09:37:38,062 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:38,394 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3588, val_Accuracy: 0.9131, val_Dirichlet: 4961.11377, val_time: 0.33 (s)]
+2024-05-26 09:37:38,534 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_142.pt saved
+2024-05-26 09:37:38,535 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:38,535 - easytorch-training - INFO - Epoch 143 / 200
+2024-05-26 09:37:38,842 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2839, train_time: 0.31 (s), lr: 1.94e-04]
+2024-05-26 09:37:38,843 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:39,181 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3552, val_Accuracy: 0.9111, val_Dirichlet: 4906.70654, val_time: 0.34 (s)]
+2024-05-26 09:37:39,323 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_143.pt saved
+2024-05-26 09:37:39,323 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:39,323 - easytorch-training - INFO - Epoch 144 / 200
+2024-05-26 09:37:39,640 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2814, train_time: 0.32 (s), lr: 1.87e-04]
+2024-05-26 09:37:39,641 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:39,960 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3562, val_Accuracy: 0.9072, val_Dirichlet: 4902.66455, val_time: 0.32 (s)]
+2024-05-26 09:37:40,103 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_144.pt saved
+2024-05-26 09:37:40,103 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:40,103 - easytorch-training - INFO - Epoch 145 / 200
+2024-05-26 09:37:40,427 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2811, train_time: 0.32 (s), lr: 1.81e-04]
+2024-05-26 09:37:40,428 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:40,749 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3514, val_Accuracy: 0.9150, val_Dirichlet: 4952.81104, val_time: 0.32 (s)]
+2024-05-26 09:37:40,891 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_145.pt saved
+2024-05-26 09:37:40,891 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:40,891 - easytorch-training - INFO - Epoch 146 / 200
+2024-05-26 09:37:41,260 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2801, train_time: 0.37 (s), lr: 1.75e-04]
+2024-05-26 09:37:41,261 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:41,589 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3520, val_Accuracy: 0.9124, val_Dirichlet: 5007.43408, val_time: 0.33 (s)]
+2024-05-26 09:37:41,731 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_146.pt saved
+2024-05-26 09:37:41,731 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:41,731 - easytorch-training - INFO - Epoch 147 / 200
+2024-05-26 09:37:42,039 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2780, train_time: 0.31 (s), lr: 1.69e-04]
+2024-05-26 09:37:42,039 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:42,368 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3528, val_Accuracy: 0.9085, val_Dirichlet: 5020.17236, val_time: 0.33 (s)]
+2024-05-26 09:37:42,510 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_147.pt saved
+2024-05-26 09:37:42,510 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:42,510 - easytorch-training - INFO - Epoch 148 / 200
+2024-05-26 09:37:42,822 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2779, train_time: 0.31 (s), lr: 1.63e-04]
+2024-05-26 09:37:42,823 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:43,146 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3492, val_Accuracy: 0.9157, val_Dirichlet: 5064.49072, val_time: 0.32 (s)]
+2024-05-26 09:37:43,288 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_148.pt saved
+2024-05-26 09:37:43,288 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:43,288 - easytorch-training - INFO - Epoch 149 / 200
+2024-05-26 09:37:43,595 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2764, train_time: 0.31 (s), lr: 1.58e-04]
+2024-05-26 09:37:43,596 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:43,931 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3491, val_Accuracy: 0.9131, val_Dirichlet: 5084.74756, val_time: 0.33 (s)]
+2024-05-26 09:37:44,073 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_149.pt saved
+2024-05-26 09:37:44,073 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:44,073 - easytorch-training - INFO - Epoch 150 / 200
+2024-05-26 09:37:44,384 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2756, train_time: 0.31 (s), lr: 1.52e-04]
+2024-05-26 09:37:44,385 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:44,710 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3468, val_Accuracy: 0.9118, val_Dirichlet: 5053.13037, val_time: 0.33 (s)]
+2024-05-26 09:37:44,853 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_150.pt saved
+2024-05-26 09:37:45,015 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:45,015 - easytorch-training - INFO - Epoch 151 / 200
+2024-05-26 09:37:45,332 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2749, train_time: 0.32 (s), lr: 1.46e-04]
+2024-05-26 09:37:45,332 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:45,657 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3440, val_Accuracy: 0.9170, val_Dirichlet: 5057.42139, val_time: 0.32 (s)]
+2024-05-26 09:37:45,798 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_151.pt saved
+2024-05-26 09:37:45,798 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:45,798 - easytorch-training - INFO - Epoch 152 / 200
+2024-05-26 09:37:46,110 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2740, train_time: 0.31 (s), lr: 1.41e-04]
+2024-05-26 09:37:46,111 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:46,440 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3462, val_Accuracy: 0.9157, val_Dirichlet: 5137.18311, val_time: 0.33 (s)]
+2024-05-26 09:37:46,584 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_152.pt saved
+2024-05-26 09:37:46,585 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:46,585 - easytorch-training - INFO - Epoch 153 / 200
+2024-05-26 09:37:46,901 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2731, train_time: 0.32 (s), lr: 1.36e-04]
+2024-05-26 09:37:46,902 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:47,229 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3471, val_Accuracy: 0.9157, val_Dirichlet: 5173.43066, val_time: 0.33 (s)]
+2024-05-26 09:37:47,372 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_153.pt saved
+2024-05-26 09:37:47,372 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:47,372 - easytorch-training - INFO - Epoch 154 / 200
+2024-05-26 09:37:47,688 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2724, train_time: 0.32 (s), lr: 1.30e-04]
+2024-05-26 09:37:47,689 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:48,011 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3443, val_Accuracy: 0.9170, val_Dirichlet: 5143.59033, val_time: 0.32 (s)]
+2024-05-26 09:37:48,151 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_154.pt saved
+2024-05-26 09:37:48,152 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:48,152 - easytorch-training - INFO - Epoch 155 / 200
+2024-05-26 09:37:48,468 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2716, train_time: 0.32 (s), lr: 1.25e-04]
+2024-05-26 09:37:48,469 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:48,794 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3445, val_Accuracy: 0.9163, val_Dirichlet: 5147.42041, val_time: 0.33 (s)]
+2024-05-26 09:37:48,936 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_155.pt saved
+2024-05-26 09:37:48,936 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:48,936 - easytorch-training - INFO - Epoch 156 / 200
+2024-05-26 09:37:49,255 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2710, train_time: 0.32 (s), lr: 1.20e-04]
+2024-05-26 09:37:49,256 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:49,582 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3449, val_Accuracy: 0.9163, val_Dirichlet: 5182.90576, val_time: 0.33 (s)]
+2024-05-26 09:37:49,725 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_156.pt saved
+2024-05-26 09:37:49,725 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:49,725 - easytorch-training - INFO - Epoch 157 / 200
+2024-05-26 09:37:50,044 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2702, train_time: 0.32 (s), lr: 1.15e-04]
+2024-05-26 09:37:50,045 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:50,367 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3440, val_Accuracy: 0.9170, val_Dirichlet: 5200.63721, val_time: 0.32 (s)]
+2024-05-26 09:37:50,511 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_157.pt saved
+2024-05-26 09:37:50,512 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:50,512 - easytorch-training - INFO - Epoch 158 / 200
+2024-05-26 09:37:50,824 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2696, train_time: 0.31 (s), lr: 1.10e-04]
+2024-05-26 09:37:50,825 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:51,154 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3442, val_Accuracy: 0.9163, val_Dirichlet: 5207.03369, val_time: 0.33 (s)]
+2024-05-26 09:37:51,295 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_158.pt saved
+2024-05-26 09:37:51,296 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:51,296 - easytorch-training - INFO - Epoch 159 / 200
+2024-05-26 09:37:51,612 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2691, train_time: 0.32 (s), lr: 1.05e-04]
+2024-05-26 09:37:51,612 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:51,941 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3440, val_Accuracy: 0.9157, val_Dirichlet: 5218.39551, val_time: 0.33 (s)]
+2024-05-26 09:37:52,083 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_159.pt saved
+2024-05-26 09:37:52,083 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:52,083 - easytorch-training - INFO - Epoch 160 / 200
+2024-05-26 09:37:52,395 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2684, train_time: 0.31 (s), lr: 1.00e-04]
+2024-05-26 09:37:52,395 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:52,725 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3426, val_Accuracy: 0.9176, val_Dirichlet: 5231.49170, val_time: 0.33 (s)]
+2024-05-26 09:37:52,865 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_160.pt saved
+2024-05-26 09:37:53,130 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:53,130 - easytorch-training - INFO - Epoch 161 / 200
+2024-05-26 09:37:53,450 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2678, train_time: 0.32 (s), lr: 9.55e-05]
+2024-05-26 09:37:53,451 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:53,776 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3421, val_Accuracy: 0.9163, val_Dirichlet: 5245.35059, val_time: 0.32 (s)]
+2024-05-26 09:37:53,922 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_161.pt saved
+2024-05-26 09:37:53,922 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:53,922 - easytorch-training - INFO - Epoch 162 / 200
+2024-05-26 09:37:54,238 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2673, train_time: 0.32 (s), lr: 9.09e-05]
+2024-05-26 09:37:54,239 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:54,560 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3423, val_Accuracy: 0.9170, val_Dirichlet: 5257.83008, val_time: 0.32 (s)]
+2024-05-26 09:37:54,702 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_162.pt saved
+2024-05-26 09:37:54,702 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:54,703 - easytorch-training - INFO - Epoch 163 / 200
+2024-05-26 09:37:55,013 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2668, train_time: 0.31 (s), lr: 8.65e-05]
+2024-05-26 09:37:55,014 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:55,345 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3415, val_Accuracy: 0.9176, val_Dirichlet: 5270.17920, val_time: 0.33 (s)]
+2024-05-26 09:37:55,488 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_163.pt saved
+2024-05-26 09:37:55,488 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:55,488 - easytorch-training - INFO - Epoch 164 / 200
+2024-05-26 09:37:55,801 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2663, train_time: 0.31 (s), lr: 8.21e-05]
+2024-05-26 09:37:55,818 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:56,124 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3408, val_Accuracy: 0.9176, val_Dirichlet: 5285.60596, val_time: 0.31 (s)]
+2024-05-26 09:37:56,267 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_164.pt saved
+2024-05-26 09:37:56,268 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:56,268 - easytorch-training - INFO - Epoch 165 / 200
+2024-05-26 09:37:56,580 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2658, train_time: 0.31 (s), lr: 7.78e-05]
+2024-05-26 09:37:56,580 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:56,913 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3407, val_Accuracy: 0.9176, val_Dirichlet: 5294.14990, val_time: 0.33 (s)]
+2024-05-26 09:37:57,056 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_165.pt saved
+2024-05-26 09:37:57,056 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:57,056 - easytorch-training - INFO - Epoch 166 / 200
+2024-05-26 09:37:57,372 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2654, train_time: 0.32 (s), lr: 7.37e-05]
+2024-05-26 09:37:57,372 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:57,694 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3404, val_Accuracy: 0.9176, val_Dirichlet: 5291.27832, val_time: 0.32 (s)]
+2024-05-26 09:37:57,836 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_166.pt saved
+2024-05-26 09:37:57,836 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:57,836 - easytorch-training - INFO - Epoch 167 / 200
+2024-05-26 09:37:58,134 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2650, train_time: 0.30 (s), lr: 6.96e-05]
+2024-05-26 09:37:58,135 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:58,475 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3398, val_Accuracy: 0.9176, val_Dirichlet: 5291.92529, val_time: 0.34 (s)]
+2024-05-26 09:37:58,619 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_167.pt saved
+2024-05-26 09:37:58,620 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:58,620 - easytorch-training - INFO - Epoch 168 / 200
+2024-05-26 09:37:58,934 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2646, train_time: 0.31 (s), lr: 6.57e-05]
+2024-05-26 09:37:58,935 - easytorch-training - INFO - Start validation.
+2024-05-26 09:37:59,263 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3399, val_Accuracy: 0.9176, val_Dirichlet: 5310.94580, val_time: 0.33 (s)]
+2024-05-26 09:37:59,406 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_168.pt saved
+2024-05-26 09:37:59,406 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:37:59,406 - easytorch-training - INFO - Epoch 169 / 200
+2024-05-26 09:37:59,715 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2642, train_time: 0.31 (s), lr: 6.18e-05]
+2024-05-26 09:37:59,716 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:00,054 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3406, val_Accuracy: 0.9183, val_Dirichlet: 5339.53369, val_time: 0.34 (s)]
+2024-05-26 09:38:00,194 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_169.pt saved
+2024-05-26 09:38:00,194 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:00,194 - easytorch-training - INFO - Epoch 170 / 200
+2024-05-26 09:38:00,507 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2638, train_time: 0.31 (s), lr: 5.81e-05]
+2024-05-26 09:38:00,507 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:00,845 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3408, val_Accuracy: 0.9183, val_Dirichlet: 5357.83643, val_time: 0.34 (s)]
+2024-05-26 09:38:00,989 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_170.pt saved
+2024-05-26 09:38:01,152 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:01,152 - easytorch-training - INFO - Epoch 171 / 200
+2024-05-26 09:38:01,472 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2635, train_time: 0.32 (s), lr: 5.45e-05]
+2024-05-26 09:38:01,473 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:01,797 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3402, val_Accuracy: 0.9183, val_Dirichlet: 5360.42578, val_time: 0.32 (s)]
+2024-05-26 09:38:01,942 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_171.pt saved
+2024-05-26 09:38:01,942 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:01,942 - easytorch-training - INFO - Epoch 172 / 200
+2024-05-26 09:38:02,242 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2632, train_time: 0.30 (s), lr: 5.10e-05]
+2024-05-26 09:38:02,243 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:02,579 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9183, val_Dirichlet: 5357.52783, val_time: 0.34 (s)]
+2024-05-26 09:38:02,721 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_172.pt saved
+2024-05-26 09:38:02,721 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:02,721 - easytorch-training - INFO - Epoch 173 / 200
+2024-05-26 09:38:03,036 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2629, train_time: 0.31 (s), lr: 4.76e-05]
+2024-05-26 09:38:03,037 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:03,360 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3390, val_Accuracy: 0.9183, val_Dirichlet: 5359.81836, val_time: 0.32 (s)]
+2024-05-26 09:38:03,502 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_173.pt saved
+2024-05-26 09:38:03,503 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:03,503 - easytorch-training - INFO - Epoch 174 / 200
+2024-05-26 09:38:03,816 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2626, train_time: 0.31 (s), lr: 4.43e-05]
+2024-05-26 09:38:03,817 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:04,143 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3390, val_Accuracy: 0.9183, val_Dirichlet: 5368.57861, val_time: 0.33 (s)]
+2024-05-26 09:38:04,286 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_174.pt saved
+2024-05-26 09:38:04,287 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:04,287 - easytorch-training - INFO - Epoch 175 / 200
+2024-05-26 09:38:04,601 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2623, train_time: 0.31 (s), lr: 4.11e-05]
+2024-05-26 09:38:04,602 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:04,924 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3391, val_Accuracy: 0.9183, val_Dirichlet: 5380.06152, val_time: 0.32 (s)]
+2024-05-26 09:38:05,066 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_175.pt saved
+2024-05-26 09:38:05,066 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:05,066 - easytorch-training - INFO - Epoch 176 / 200
+2024-05-26 09:38:05,377 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2621, train_time: 0.31 (s), lr: 3.81e-05]
+2024-05-26 09:38:05,378 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:05,710 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3391, val_Accuracy: 0.9183, val_Dirichlet: 5391.16943, val_time: 0.33 (s)]
+2024-05-26 09:38:05,853 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_176.pt saved
+2024-05-26 09:38:05,853 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:05,853 - easytorch-training - INFO - Epoch 177 / 200
+2024-05-26 09:38:06,169 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2619, train_time: 0.32 (s), lr: 3.51e-05]
+2024-05-26 09:38:06,170 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:06,489 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3393, val_Accuracy: 0.9183, val_Dirichlet: 5401.43896, val_time: 0.32 (s)]
+2024-05-26 09:38:06,631 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_177.pt saved
+2024-05-26 09:38:06,631 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:06,632 - easytorch-training - INFO - Epoch 178 / 200
+2024-05-26 09:38:06,937 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2617, train_time: 0.31 (s), lr: 3.23e-05]
+2024-05-26 09:38:06,938 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:07,270 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3395, val_Accuracy: 0.9183, val_Dirichlet: 5410.94141, val_time: 0.33 (s)]
+2024-05-26 09:38:07,409 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_178.pt saved
+2024-05-26 09:38:07,409 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:07,409 - easytorch-training - INFO - Epoch 179 / 200
+2024-05-26 09:38:07,726 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2615, train_time: 0.32 (s), lr: 2.96e-05]
+2024-05-26 09:38:07,727 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:08,049 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3397, val_Accuracy: 0.9183, val_Dirichlet: 5419.16064, val_time: 0.32 (s)]
+2024-05-26 09:38:08,192 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_179.pt saved
+2024-05-26 09:38:08,192 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:08,192 - easytorch-training - INFO - Epoch 180 / 200
+2024-05-26 09:38:08,501 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2613, train_time: 0.31 (s), lr: 2.70e-05]
+2024-05-26 09:38:08,502 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:08,833 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3398, val_Accuracy: 0.9176, val_Dirichlet: 5424.89111, val_time: 0.33 (s)]
+2024-05-26 09:38:08,973 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_180.pt saved
+2024-05-26 09:38:09,140 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:09,140 - easytorch-training - INFO - Epoch 181 / 200
+2024-05-26 09:38:09,455 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2611, train_time: 0.31 (s), lr: 2.45e-05]
+2024-05-26 09:38:09,456 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:09,787 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3397, val_Accuracy: 0.9176, val_Dirichlet: 5427.50537, val_time: 0.33 (s)]
+2024-05-26 09:38:09,932 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_181.pt saved
+2024-05-26 09:38:09,932 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:09,932 - easytorch-training - INFO - Epoch 182 / 200
+2024-05-26 09:38:10,245 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2610, train_time: 0.31 (s), lr: 2.21e-05]
+2024-05-26 09:38:10,246 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:10,577 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3395, val_Accuracy: 0.9176, val_Dirichlet: 5427.95703, val_time: 0.33 (s)]
+2024-05-26 09:38:10,719 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_182.pt saved
+2024-05-26 09:38:10,720 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:10,720 - easytorch-training - INFO - Epoch 183 / 200
+2024-05-26 09:38:11,033 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2608, train_time: 0.31 (s), lr: 1.99e-05]
+2024-05-26 09:38:11,034 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:11,355 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5427.83984, val_time: 0.32 (s)]
+2024-05-26 09:38:11,498 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_183.pt saved
+2024-05-26 09:38:11,498 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:11,498 - easytorch-training - INFO - Epoch 184 / 200
+2024-05-26 09:38:11,808 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2607, train_time: 0.31 (s), lr: 1.77e-05]
+2024-05-26 09:38:11,808 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:12,140 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3393, val_Accuracy: 0.9176, val_Dirichlet: 5428.58008, val_time: 0.33 (s)]
+2024-05-26 09:38:12,282 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_184.pt saved
+2024-05-26 09:38:12,283 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:12,283 - easytorch-training - INFO - Epoch 185 / 200
+2024-05-26 09:38:12,599 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2606, train_time: 0.32 (s), lr: 1.57e-05]
+2024-05-26 09:38:12,600 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:12,927 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3393, val_Accuracy: 0.9176, val_Dirichlet: 5430.49316, val_time: 0.33 (s)]
+2024-05-26 09:38:13,069 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_185.pt saved
+2024-05-26 09:38:13,069 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:13,069 - easytorch-training - INFO - Epoch 186 / 200
+2024-05-26 09:38:13,385 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2605, train_time: 0.32 (s), lr: 1.38e-05]
+2024-05-26 09:38:13,386 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:13,706 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3393, val_Accuracy: 0.9176, val_Dirichlet: 5433.31396, val_time: 0.32 (s)]
+2024-05-26 09:38:13,848 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_186.pt saved
+2024-05-26 09:38:13,848 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:13,848 - easytorch-training - INFO - Epoch 187 / 200
+2024-05-26 09:38:14,149 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2604, train_time: 0.30 (s), lr: 1.20e-05]
+2024-05-26 09:38:14,149 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:14,486 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5436.58008, val_time: 0.34 (s)]
+2024-05-26 09:38:14,628 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_187.pt saved
+2024-05-26 09:38:14,628 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:14,628 - easytorch-training - INFO - Epoch 188 / 200
+2024-05-26 09:38:14,941 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2603, train_time: 0.31 (s), lr: 1.04e-05]
+2024-05-26 09:38:14,942 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:15,274 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5439.78125, val_time: 0.33 (s)]
+2024-05-26 09:38:15,416 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_188.pt saved
+2024-05-26 09:38:15,416 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:15,416 - easytorch-training - INFO - Epoch 189 / 200
+2024-05-26 09:38:15,727 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2603, train_time: 0.31 (s), lr: 8.86e-06]
+2024-05-26 09:38:15,728 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:16,056 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5442.55615, val_time: 0.33 (s)]
+2024-05-26 09:38:16,197 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_189.pt saved
+2024-05-26 09:38:16,197 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:16,197 - easytorch-training - INFO - Epoch 190 / 200
+2024-05-26 09:38:16,506 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2602, train_time: 0.31 (s), lr: 7.45e-06]
+2024-05-26 09:38:16,507 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:16,840 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5444.70459, val_time: 0.33 (s)]
+2024-05-26 09:38:16,980 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_190.pt saved
+2024-05-26 09:38:17,146 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:17,146 - easytorch-training - INFO - Epoch 191 / 200
+2024-05-26 09:38:17,460 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2602, train_time: 0.31 (s), lr: 6.16e-06]
+2024-05-26 09:38:17,461 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:17,786 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5446.22314, val_time: 0.32 (s)]
+2024-05-26 09:38:17,931 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_191.pt saved
+2024-05-26 09:38:17,931 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:17,931 - easytorch-training - INFO - Epoch 192 / 200
+2024-05-26 09:38:18,247 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2601, train_time: 0.32 (s), lr: 4.99e-06]
+2024-05-26 09:38:18,248 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:18,577 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5447.22852, val_time: 0.33 (s)]
+2024-05-26 09:38:18,799 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_192.pt saved
+2024-05-26 09:38:18,799 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:18,799 - easytorch-training - INFO - Epoch 193 / 200
+2024-05-26 09:38:19,117 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2601, train_time: 0.32 (s), lr: 3.94e-06]
+2024-05-26 09:38:19,118 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:19,443 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5447.85352, val_time: 0.32 (s)]
+2024-05-26 09:38:19,586 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_193.pt saved
+2024-05-26 09:38:19,586 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:19,586 - easytorch-training - INFO - Epoch 194 / 200
+2024-05-26 09:38:19,898 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2601, train_time: 0.31 (s), lr: 3.02e-06]
+2024-05-26 09:38:19,898 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:20,224 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5448.21729, val_time: 0.33 (s)]
+2024-05-26 09:38:20,366 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_194.pt saved
+2024-05-26 09:38:20,366 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:20,366 - easytorch-training - INFO - Epoch 195 / 200
+2024-05-26 09:38:20,675 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2601, train_time: 0.31 (s), lr: 2.22e-06]
+2024-05-26 09:38:20,676 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:21,003 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5448.41504, val_time: 0.33 (s)]
+2024-05-26 09:38:21,145 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_195.pt saved
+2024-05-26 09:38:21,145 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:21,145 - easytorch-training - INFO - Epoch 196 / 200
+2024-05-26 09:38:21,456 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2600, train_time: 0.31 (s), lr: 1.54e-06]
+2024-05-26 09:38:21,458 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:21,786 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5448.51562, val_time: 0.33 (s)]
+2024-05-26 09:38:21,928 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_196.pt saved
+2024-05-26 09:38:21,928 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:21,928 - easytorch-training - INFO - Epoch 197 / 200
+2024-05-26 09:38:22,245 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2600, train_time: 0.32 (s), lr: 9.87e-07]
+2024-05-26 09:38:22,246 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:22,569 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5448.56152, val_time: 0.32 (s)]
+2024-05-26 09:38:22,713 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_197.pt saved
+2024-05-26 09:38:22,714 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:22,714 - easytorch-training - INFO - Epoch 198 / 200
+2024-05-26 09:38:23,028 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2600, train_time: 0.31 (s), lr: 5.55e-07]
+2024-05-26 09:38:23,029 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:23,354 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5448.57861, val_time: 0.33 (s)]
+2024-05-26 09:38:23,498 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_198.pt saved
+2024-05-26 09:38:23,498 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:23,499 - easytorch-training - INFO - Epoch 199 / 200
+2024-05-26 09:38:23,818 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2600, train_time: 0.32 (s), lr: 2.47e-07]
+2024-05-26 09:38:23,818 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:24,146 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5448.58350, val_time: 0.33 (s)]
+2024-05-26 09:38:24,290 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_199.pt saved
+2024-05-26 09:38:24,290 - easytorch-training - INFO - The estimated training finish time is 2024-05-26 09:38:25
+2024-05-26 09:38:24,290 - easytorch-training - INFO - Epoch 200 / 200
+2024-05-26 09:38:24,604 - easytorch-training - INFO - Result <train>: [train_Loss: 0.2600, train_time: 0.31 (s), lr: 6.17e-08]
+2024-05-26 09:38:24,606 - easytorch-training - INFO - Start validation.
+2024-05-26 09:38:24,930 - easytorch-training - INFO - Result <val>: [val_Loss: 0.3394, val_Accuracy: 0.9176, val_Dirichlet: 5448.58350, val_time: 0.32 (s)]
+2024-05-26 09:38:25,073 - easytorch-training - INFO - Checkpoint experiment/accdc1e998cbf69b48341a2c14eba675/simpleGNN_200.pt saved
+2024-05-26 09:38:25,239 - easytorch-training - INFO - The training finished at 2024-05-26 09:38:25
